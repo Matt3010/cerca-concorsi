@@ -5,32 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb17387-c2c7-4f32-9695-c02627fa036d" name="Changes" comment="feat: refactor vincite and concorsi services to use ActivitySyncClient for entity synchronization">
-      <change afterPath="$PROJECT_DIR$/src/common/activities/activity-sync.client.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/common.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/crawler/crawler-queue.client.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/crawler/web-scraper.client.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/telegram/telegram.client.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/activities/concorsi/concorsi.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/activities/concorsi/concorsi.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/activities/concorsi/strategies/dimmi-cosa-cerchi/base-dimmi-cosa-cerchi.strategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/activities/concorsi/strategies/dimmi-cosa-cerchi/base-dimmi-cosa-cerchi.strategy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/activities/concorsi/strategies/dimmi-cosa-cerchi/dimmi-cosa-cerchi-strategy.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/activities/concorsi/strategies/dimmi-cosa-cerchi/dimmi-cosa-cerchi-strategy.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/activities/concorsi/strategies/dimmi-cosa-cerchi/dimmi-cosa-cerchi-travel-strategy.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/activities/concorsi/strategies/dimmi-cosa-cerchi/dimmi-cosa-cerchi-travel-strategy.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/activities/vincite/dto/crawl-vincita.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/activities/vincite/dto/crawl-vincita.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/activities/vincite/entities/vincita.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/activities/vincite/entities/vincita.entity.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/activities/vincite/strategies/soldissimi-vincite.strategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/activities/vincite/strategies/soldissimi-vincite.strategy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/activities/vincite/vincite.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/activities/vincite/vincite.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawler/crawler.constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawler/crawler.constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawler/crawler.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawler/crawler.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawler/crawler.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawler/crawler.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawler/scan.worker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawler/scan.worker.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawler/strategy.registry.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawler/strategy.registry.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawler/summary.worker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawler/summary.worker.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notification/notification.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/notification/notification.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notification/notification.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/notification/notification.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notification/strategies/telegram.strategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/notification/strategies/telegram.strategy.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +123,7 @@
       <workItem from="1763721834368" duration="6000" />
       <workItem from="1763721894399" duration="9000" />
       <workItem from="1763834716628" duration="1393000" />
+      <workItem from="1764145275526" duration="176000" />
     </task>
     <task id="LOCAL-00001" summary="added types where possible, any should be checked and changed with a specific type">
       <option name="closed" value="true" />

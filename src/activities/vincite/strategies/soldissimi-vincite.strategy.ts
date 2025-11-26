@@ -119,6 +119,10 @@ export class SoldissimiVinciteStrategy implements ICrawlerStrategy<Vincita, Craw
 
         if (createdResults.length > 0) {
             message += `✅ *Trovati ${createdResults.length} nuovi vincitori:*\n\n`;
+            createdResults.forEach((res: ProcessResult<Vincita>): void => {
+                const v: Vincita = res.entity;
+                message += `👤${v.title}`;
+            });
         } else {
             message += `✅ Nessuna nuova vincita rilevata.\n`;
         }
